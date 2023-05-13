@@ -1,0 +1,98 @@
+@media (max-width: 1200px) {
+
+	body {
+		background-image: url(img/bg-header-mobile.png);
+		background-repeat: no-repeat;
+		background-size: 100% 340px;
+	}
+
+	.container {
+		width: 340px;
+		margin: 0 auto;
+	}
+
+	.corpo-texto h2, .corpo-texto h3, .topo-texto-2 h2, .meio-texto h2, .fim-texto h2 {
+		font-size: 2.1em;
+	}
+
+	.topo, .fim, .meio-texto, .ultimo {
+		width: 340px;
+		margin: 0 auto;
+	}
+
+	.topo-botao > div {
+		padding: 15px 90px;
+		font-size: 1.2em;
+	}
+
+	.ios {
+		margin-right: 0px;
+	}
+
+	.corpo {
+		display: grid;
+		gap: 50px;
+		grid-template-columns: 340px;
+	}
+
+	.corpo-imagem img, .meio-imagem img {
+		width: 300px;
+		float: none;
+	}
+
+	.corpo-texto {
+		text-align: center;
+	}
+
+	.meio-imagem img {
+		margin-top: 55px;
+	}
+
+	.tools, .logos {
+		grid-template-columns: 340px;
+	}
+
+	.tools, .logos, .fim {
+		margin-top: 90px;
+	}
+
+	.ultimo {
+		margin-top: 150px;
+	}
+
+	.tools h3 {
+		font-size: 1.6em;
+	}
+
+	.logos {
+		gap: 60px;
+	}
+
+	.rodape {
+		padding: 50px 0px 0px 30px;
+	}
+
+	.rodape > div {
+		font-size: 1.2em;
+		text-align: center;
+		width: 340px;
+		margin: 0 auto;
+		display: grid;
+		justify-content: space-evenly;
+		grid-template-columns: 340px;
+		grid-gap: unset;
+	}
+
+	.col-2, .social {
+		margin-top: 30px;
+	}
+
+	.social {
+		margin-bottom: 30px;
+	}
+
+	.social a {
+		padding: 20px;
+	}
+
+}

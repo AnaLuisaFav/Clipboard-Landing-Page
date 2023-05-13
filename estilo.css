@@ -1,0 +1,197 @@
+  @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+body {
+	font-family: "Bai Jamjuree", sans-serif;
+	background-image: url(img/bg-header-desktop.png);
+	background-repeat: no-repeat;
+	background-size: 100% 363px;
+	background-position: center top;
+	margin: 0px;
+	padding: 0px;
+	color: hsl(210, 10%, 33%);
+	overflow-x: hidden;
+	text-align: center;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+a {
+	color: hsl(210, 10%, 33%);
+	text-decoration: none;
+}
+
+* {
+	transition: all 200ms ease-in-out;
+}
+
+.topo, .fim, .meio-texto, .ultimo {
+	width: 590px;
+	margin: 0 auto;
+}
+
+.topo-imagem img, .meio-imagem img {
+	display: flex;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+.topo-texto-1 h1, .texto-ultimo h1 {
+	font-size: 2.1em;
+}
+
+.container p {
+	font-size: 1.1em;
+}
+
+.topo-botao > div {
+	color: white;
+	display: inline-block;
+	margin-top: 30px;
+	padding: 12px 30px;
+	border-radius: 30px;
+}
+
+.ios {
+	background-color: hsl(171, 66%, 44%);
+	box-shadow: -1px 2px 0 1px hsl(171.08deg 50.49% 38.37%);
+	margin-right: 15px;
+}
+
+.ios:hover {
+	background-color: hsl(171, 66%, 44%, 0.77);
+}
+
+.mac {
+	background-color: hsl(233, 100%, 69%);
+	box-shadow: -1px 2px 0 1px hsl(233.08deg 90.49% 63.37%);
+}
+
+.mac:hover {
+	background-color: hsl(233, 100%, 69%, 0.77);
+}
+
+.topo-botao:hover {
+	cursor: pointer;
+}
+
+.topo-texto-2 {
+	margin-top: 130px;
+}
+
+.topo-texto-2 h2 {
+	font-size: 1.7em;
+}
+
+.corpo {
+	display: grid;
+	gap: 120px;
+	grid-template-columns: 50% 335px;
+}
+
+.corpo-imagem img {
+	width: 750px;
+	float: right;
+}
+
+.corpo-texto h3 {
+	font-size: 1.5em;
+	margin-bottom: 0px;
+}
+
+.corpo-texto {
+	display: block;
+	align-self: center;
+	text-align: left;
+}
+
+.corpo-texto p {
+	margin-bottom: 60px;
+}
+
+.corpo, .meio, .ultimo, .rodape {
+	margin-top: 100px;
+}
+
+.logos, .ultimo {
+	margin-top: 150px;
+}
+
+.tools {
+	margin-top: 50px;
+	display: grid;
+	justify-content: center;
+	align-items: baseline;
+	gap: 30px;
+	grid-template-columns: 344px 344px 344px;
+}
+
+.blacklist-img img {
+	height: 36px;
+}
+
+.logos {
+	margin-top: 150px;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.rodape {
+	background-color: #f5f6f8;
+	padding: 30px 0px;
+}
+
+.rodape > div {
+	text-align: left;
+	width: 1200px;
+	margin: 0 auto;
+	display: grid;
+	justify-content: space-evenly;
+	grid-template-columns: repeat(5,max-content);
+	grid-gap: 120px;
+}
+
+.rodape a:hover, footer a:hover {
+	color: hsl(171, 66%, 64%, 1);
+}
+
+.rodape img:hover {
+	cursor: pointer;
+	filter: invert(0.5) sepia(2) saturate(4) hue-rotate(125deg);
+}
+
+.rodape-img img {
+	width: 50px;
+}
+
+div > a {
+	padding: 10px;
+	display: block;
+}
+
+.social {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer {
+	background-color: #f5f6f8;
+	font-size: 0.7em;
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
